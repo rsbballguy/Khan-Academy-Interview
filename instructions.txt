@@ -1,0 +1,30 @@
+To run python files:
+	1. Have some version of python 2 installed in your computer
+	2. Type "python (filename)" in your terminal
+total_infection.py:
+	Total infection. Prints out the users in the system that get the virus given a test file and a start user.
+limited_infection.py:
+	Limited Infection. Takes in test file name and target number in input. Prints out
+	the connected group of users that is smaller than the target number given. If the target number is larger than
+	all connected group of users, it just prints the largest group out.
+exact_infection.py:
+	Takes in test file name and exact number wanted in input. Prints out failure if a connected group
+	that is as large as the target number is not found. If successful, prints out the users that 
+	should receive the new features.
+Test Files:
+	Format is as follows:
+		coach
+		student, student, student...
+		coach
+		student, student, student...
+		...
+	Two test files are given, and you can create your own test .txt files by following that format
+	Assumptions:
+		1. This format will be followed in test files
+		2. There can only be one coach per class
+		3. Coaches cannot also be students
+
+Note: Some of my design choices, especially for data structures, may be questionable, but I have a good reason for doing 
+	   it the way I did and would love to explain more over Skype.
+
+-Rahul Sundararaman
